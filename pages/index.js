@@ -23,17 +23,19 @@ const index = () => {
 
   return (
     <Layout>
-      <Preloader />
+{/* Animation */}
+      <Preloader /> 
       <Landing />
+{/* About */}
       <About />
       <Wihts />
       <Journey />
       <Venue />
       <Schedule />
-      <Tracks />
+      {/* <Tracks /> */}
       <Sponsor />
-      <WhySponsor />
-      <Organiser />
+      {/* <WhySponsor />
+      <Organiser /> */}
       <FAQS />
     </Layout>
   );

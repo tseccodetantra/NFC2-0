@@ -1,22 +1,22 @@
 export const infoConfig = {
-  about: [
-    {
-      id: "1",
-      data: "We are active leaders & passionate community builders who work towards a collective goal of strengthening the region to get all the tech enthusiasts and career aspirants equal opportunities and exposure as people in metro cities or all around the world get! We are determined to cultivate an ambiance where individuals can coact to creat an inclusive environment to devise, grasp and develop solutions. Our motive is not only concerned with technical but also cultural development. As a team of aspirants we welcome growth as a part of our journey.",
-    },
-    {
-      id: "2",
-      data: "So, here we are, organizing the biggest hackathon of central India, with enormous amounts of opportunities and capabilities to level up the community reach of the region.",
-    },
-  ],
   wihts: [
     {
       id: "1",
-      data: "HackTheSpace 2023 is an exciting 24-hour event that will take place across India. It is a time-limited event that encourages participants to brainstorm, develop, and present their ideas to a panel of judges. This event is designed to foster creativity, collaboration, and innovation among participants. It offers an excellent opportunity for participants to showcase their skills, network with peers, and potentially win prizes and recognition for their work.",
+      data: "Welcome to TSEC CodeTantra's flagship event, Need For Code 2.0! Embracing the future, we are thrilled to present this year's edition in a dynamic hybrid mode, uniting over 400 participants in a celebration of innovation and collaboration.Need For Code 2.0 stands as a testament to our commitment to pushing boundaries and shaping a brighter tomorrow. Our mission is to create a dynamic and collaborative platform where participants can come together and harness their collective creativity to tackle real-life challenges by devising innovative solutions. We aim to encourage ingenious thinking that addresses a diverse range of problems effectively.",
     },
     {
       id: "2",
-      data: "During the event, participants will work in teams to develop innovative ideas that can solve real-world problems. They will be encouraged to use their creativity, technical skills, and critical thinking abilities to develop solutions that are both practical and effective.",
+      data: "Join us on this exhilarating quest as we build a legacy of innovation and create solutions that shape the future.\n Need For Code 2.0 – where ideas converge and possibilities unfold!",
+    },
+  ],
+  about: [
+    {
+      id: "1",
+      data: "CodeTantra, one of the Prestigous Technical committe at Thadomal Shahani, working towards nuturing interests and developing coding skills. We plan to conduct varous workshops and seminars for beginners, introducing them to a variety of languages and domains in the Tech world.",
+    },
+    {
+      id: "2",
+      data: "Additionally, CodeTantra aims to foster a collaborative learning environment, encouraging students to work on real-world projects and participate in coding competitions. Through hands-on coding challenges and hackathons, we strive to instill problem-solving abilities and critical thinking among our members. Our experienced mentors are dedicated to providing guidance and support to students, helping them overcome challenges and excel in their coding endeavors.",
     },
   ],
   Hackathon:

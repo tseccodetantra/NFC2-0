@@ -23,7 +23,7 @@ const Preloader = () => {
             height="100%"
           >
             <text className="text" x="20" y="75">
-              HACK THE SPACE
+              NEED FOR CODE 2.0
             </text>
           </svg>
         </div>
