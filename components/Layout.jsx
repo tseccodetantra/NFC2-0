@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
           key="canonical"
         />
 
-        <title>Hack The Space</title>
+        <title>Need for Code 2.0</title>
         <meta
           name="description"
           content="A 24-hour immersive hackathon for all the nerds out there✨. Empowering young minds😇. Turn Ideas into Impact!🚀"

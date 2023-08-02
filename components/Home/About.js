@@ -22,14 +22,14 @@ const About = () => {
           <div className="rstar">
             <img
               className="topstar"
-              src="/images/images/spaceship.png"
+              src="/images/images/darth.png"
               alt="Hack the space Hackathon Star"
             />
           </div>
           <div className="frm about-frm">
             <img
               className="botstar"
-              src="/images/About/planet.webp"
+              src="/images/images/star.png"
               alt="Hack the space Hackathon Planet"
             />
           </div>

@@ -54,7 +54,7 @@ const Navbar = () => {
           <div className="logo shrink">
             <Link href="#home">
               <Image
-                src="/images/navbar/nav_logo.png"
+                src="/images/navbar/codetantra_logo.png"
                 alt="hack the space"
                 width={100}
                 height={100}
@@ -118,7 +118,7 @@ const Navbar = () => {
                 <div className="logo shrink">
                     <Link href="#home" onClick={handleScroll}>
                         <img
-                            src="/images/navbar/nav_logo.png"
+                            src="/images/navbar/codetantra_logo.png"
                             alt="hack the space"
                         />
                     </Link >
@@ -128,9 +128,8 @@ const Navbar = () => {
                     <Link href="#about" onClick={handleScroll}>About</Link >
                     {/* <!-- <Link href="#">Prizes</Link > --> */}
                     <Link href="#schedule" onClick={handleScroll}>Schedule</Link >
-                    <Link href="#tracks" onClick={handleScroll}>Tracks</Link >
                     <Link href="#sponsors" onClick={handleScroll}>Sponsors</Link >
-                    <Link href="#organiser" onClick={handleScroll}>Team</Link >
+               
                     <Link href="#faqs" onClick={handleScroll}>FAQs</Link >
                     <Link href="#contact" onClick={handleScroll}>Contact</Link >
                 </div>

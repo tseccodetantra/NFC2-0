@@ -31,7 +31,7 @@
   border-radius: 8px;
   bottom: 0;
   left: 0;
-  background-color: var(--primary-blue);
+  
 }
 
 .docs ul {
@@ -58,9 +58,12 @@
 
 .docs ul li a:hover,
 .contactUs .contactList a:hover {
-  color: var(--primary-blue);
-  text-shadow: -0.25px -0.25px 0 var(--primary-blue),
-    0.25px 0.25px var(--primary-blue);
+  color: #FFDE06;
+  /* text-shadow: -0.25px -0.25px 0 var(--primary-blue),
+    0.25px 0.25px var(--primary-blue); */
+
+    text-shadow: -0.25px -0.25px 0 #FFDE06, 0.25px 0.25px #FFDE06;
+
 }
 
 /* .footer-section hr {

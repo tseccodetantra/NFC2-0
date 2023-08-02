@@ -79,7 +79,8 @@
 }
 
 .faqs-section .container .question-box .question.active {
-  color: var(--primary-blue);
+  color: #FFDE06;
+
 }
 
 .faqs-section .container .question-box .question.active::after {

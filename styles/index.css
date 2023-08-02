@@ -20,8 +20,11 @@
   letter-spacing: 0.08em;
   font-family: "Montserrat", sans-serif !important;
 
-  background: -webkit-linear-gradient(180deg, #b741dd 40%, #7d00f2 100%);
-  background: linear-gradient(180deg, #b741dd 47.2%, #7d00f2 90.1%);
+ 
+
+background: -webkit-linear-gradient(180deg, #FFDE06 40%, #FFDE06 100%);
+background: linear-gradient(180deg, #FFDE06 47.2%, #FFDE06 90.1%);
+  
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;

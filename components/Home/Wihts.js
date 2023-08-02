@@ -13,7 +13,7 @@ const Wihts = () => {
       data-wow-duration="1s"
     >
       <div className="abbox">
-        <h2 className="section-title">WHAT IS CODETANTRA?</h2>
+        <h2 className="section-title">WHAT IS NEED FOR CODE 2.0?</h2>
         <div className="paraDiv" style={{ zIndex: 100 }}>
           {wihts.map((d, index) => (
             <React.Fragment key={d.id}>
@@ -21,17 +21,26 @@ const Wihts = () => {
               <p key={d.id}>{d.data}</p>
             </React.Fragment>
           ))}
-          <p>{Hackathon.data}<Link target="_blank" href={Hackathon.link}>here..</Link></p>
+          <p>
+            {Hackathon.data}
+            <Link
+              target="_blank"
+              style={{ color: "#FFDE06" }}
+              href={Hackathon.link}
+            >
+              here..
+            </Link>
+          </p>
 
           <div className="frm">
             <img
-              src="/images/images/greenplanet.png"
+              src="/images/images/R2_D2.png"
               alt="Hack the space Hackathon planet"
             />
           </div>
           <div className="asrt">
             <img
-              src="/images/images/astronaut.png"
+              src="/images/images/yoda.png"
               alt="Hack the space Hackathon planet"
             />
           </div>

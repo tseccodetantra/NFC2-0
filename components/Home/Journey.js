@@ -4,7 +4,7 @@ import SectionLayout from "../SectionLayout";
 const Journey = () => {
   return (
     <SectionLayout
-      Title={"JOURNEY OF HTS"}
+      Title={"JOURNEY OF NFC"}
       Classname={"venue-section-container built-section"}
     >
       <div className="super-outer-circle">
@@ -14,7 +14,7 @@ const Journey = () => {
         </div>
         <div className="outer-outer-circle">
           <div className="text text-2">
-            <h2>48+</h2>
+            <h2>24+</h2>
             <p>Hack Hours</p>
           </div>
           <div className="text text-3">
@@ -24,11 +24,11 @@ const Journey = () => {
           <div className="outer-circle">
             <div className="text text-4">
               <h2>200+</h2>
-              <p>Avg. Footfall</p>
+              <p>Team Registeration</p>
             </div>
             <div className="text text-5">
-              <h2>5000+</h2>
-              <p>Participants Across Events</p>
+              <h2>50+ Team</h2>
+              <p>Participanting</p>
             </div>
             <div className="inner-circle">
               <div className="center-circle">
