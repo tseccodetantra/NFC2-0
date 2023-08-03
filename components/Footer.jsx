@@ -16,11 +16,6 @@ const Footer = () => {
 
           <ul>
             <li>
-              <Link href="./assets/footer/Code of Conduct - HTS.pdf">
-                HTS - Rule Book / Code of Conduct
-              </Link>
-            </li>
-            <li>
               <Link href="https://devfolio.co/code-of-conduct">
                 Devfolio Code of Conduct
               </Link>
