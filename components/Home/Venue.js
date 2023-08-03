@@ -41,13 +41,6 @@ const Venue = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-          {/* <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d60335.707543379765!2d72.79466019636043!3d19.064541252477227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3be7c91130392c07%3A0x3c47bf391c8de931!2sThadomal%20Shahani%20Engineering%20College%2C%20W%2C%20Off%20Linking%20Road%2C%20TPS%20III%2C%20Bandra%20West%2C%20Mumbai%2C%20Maharashtra!3m2!1d19.0644647!2d72.8358602!4m0!5e0!3m2!1sen!2sin!4v1690826532101!5m2!1sen!2sin" 
-          width="600" 
-          height="450" 
-          style="border:0;" 
-          allowFullscreen="" 
-          loading="lazy" 
-          referrerpolicy="no-referrer-when-downgrade"></iframe> */}
         </div>
       </div>
       <div className="aconst6">

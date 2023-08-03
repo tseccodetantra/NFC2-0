@@ -22,7 +22,7 @@ const Preloader = () => {
             width="80%"
             height="100%"
           >
-            <text className="text" x="20" y="75">
+            <text className="text" x="20" y="75" color="yellow">
               NEED FOR CODE 2.0
             </text>
           </svg>
