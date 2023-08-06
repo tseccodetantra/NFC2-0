@@ -3,20 +3,13 @@ export const sponsorConfig = {
     Name: "gold",
     Img: "/images/sponsor/Mando Coin (2).png",
     Type: "Gold",
-    Sponsor: [
-      {
-        id: "1",
-        Name: "Github",
-        Img: "/images/sponsor/Github_Logo.svg",
-      },
-    ],
-  },
-
-  silver: {
-    id: "2",
-    Name: "silver",
-    Img: "/images/sponsor/Mandolorian Coin Silver.png",
-    Type: "platinum",
+    // Sponsor: [
+    //   {
+    //     id: "1",
+    //     Name: "Github",
+    //     Img: "/images/sponsor/Github_Logo.svg",
+    //   },
+    // ],
     Sponsor: [
       {
         id: "1",
@@ -28,19 +21,14 @@ export const sponsorConfig = {
         Name: "Polygon",
         Img: "/images/sponsor/Polygon_Logo-Colored@2x.png",
       },
-      {
-        id: "3",
-        Name: "Postman",
-        Img: "/images/sponsor/Postman-logo.png",
-      },
     ],
   },
 
-  bronze: {
-    id: "3",
-    Name: "bronze",
-    Img: "/images/sponsor/Mando Coin br.png",
-    Type: "silver",
+  silver: {
+    id: "2",
+    Name: "silver",
+    Img: "/images/sponsor/Mandolorian Coin Silver.png",
+    Type: "platinum",
     Sponsor: [
       {
         id: "1",
@@ -57,6 +45,35 @@ export const sponsorConfig = {
         Name: "Replit",
         Img: "/images/sponsor/Replit-Dark-Background.png",
       },
+    ],
+  },
+
+  bronze: {
+    id: "3",
+    Name: "bronze",
+    Img: "/images/sponsor/Mando Coin br.png",
+    Type: "silver",
+    Sponsor: [
+      {
+        id: "1",
+        Name: "Coding Ninjas",
+        Img: "/images/sponsor/CN.png",
+      },
+      {
+        id: "2",
+        Name: "Solana",
+        Img: "/images/sponsor/Solana Dark.png",
+      },
+      {
+        id: "3",
+        Name: "Replit",
+        Img: "/images/sponsor/Replit-Dark-Background.png",
+      },{
+        id: "1",
+        Name: "Filecoin",
+        Img: "/images/sponsor/Filecoin Coloured White Text-1.png",
+      },
+     
     ],
   },
 
