@@ -59,8 +59,8 @@ const Landing = () => {
         <p className="title" id="title">
           {title}
         </p>
-<br/>        
-<br/>        
+        <br />
+        <br />
         <p style={{ marginTop: "0" }}>15 - 16 SEPTEMBER, 2023</p>
         <p className="venue-text">
           Thadomal Shahani Engineering College
@@ -73,7 +73,7 @@ const Landing = () => {
           <button type="button" className="Btn zinc-bg">
             <a href="https://need-for-code.devfolio.co/" target="_blank">
               <div className="gradient-mask blue-bg">
-              {/* <img src="images/sponsor/Square.png" alt="Dev logo" style={{height:50}} /> */}
+                {/* <img src="images/sponsor/Square.png" alt="Dev logo" style={{height:50}} /> */}
               </div>
               {/* <svg
                 name="logo-discord"
@@ -92,7 +92,7 @@ const Landing = () => {
           </button>
 
           {/* Discord Button */}
-          <button type="button" className="Btn zinc-bg">
+          {/* <button type="button" className="Btn zinc-bg">
             <a href="https://discord.gg/FJKTSgdxPX" target="_blank">
               <div className="gradient-mask blue-bg"></div>
 
@@ -108,7 +108,7 @@ const Landing = () => {
 
               <span className="text">Discord</span>
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
       <div className="cost2">

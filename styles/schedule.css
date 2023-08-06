@@ -6,6 +6,10 @@
   height: 2478px;
   width: 100%;
 }
+/* 
+#schedule Img{
+  filter: invert(100);
+} */
 
 .schedule-section {
   display: flex;
