@@ -66,6 +66,28 @@
   display: none;
 }
 
+.domain{
+  display: flex;
+  flex-direction: column;
+}
+
+.domains{
+  display: flex;
+  /* flex-direction: column; */
+} 
+
+.domain-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.domains img{
+  filter: invert(1);
+}
+
 .paraDiv p {
   padding: 0 3rem 0.5rem;
   font-size: 1.1rem;
@@ -118,6 +140,13 @@
   width: 50%;
   transform: rotate(25deg);
   animation: rotatefull 20s linear infinite;
+}
+
+@media (max-width: 768px){
+  .domains{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 768px) {
