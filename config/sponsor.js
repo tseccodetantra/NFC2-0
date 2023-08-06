@@ -30,21 +30,21 @@ export const sponsorConfig = {
     Img: "/images/sponsor/Mandolorian Coin Silver.png",
     Type: "platinum",
     Sponsor: [
-      {
-        id: "1",
-        Name: "Filecoin",
-        Img: "/images/sponsor/Filecoin Coloured White Text-1.png",
-      },
-      {
-        id: "2",
-        Name: "Solana",
-        Img: "/images/sponsor/Solana Dark.png",
-      },
-      {
-        id: "3",
-        Name: "Replit",
-        Img: "/images/sponsor/Replit-Dark-Background.png",
-      },
+      // {
+      //   id: "1",
+      //   Name: "Filecoin",
+      //   Img: "/images/sponsor/Filecoin Coloured White Text-1.png",
+      // },
+      // {
+      //   id: "2",
+      //   Name: "Solana",
+      //   Img: "/images/sponsor/Solana Dark.png",
+      // },
+      // {
+      //   id: "3",
+      //   Name: "Replit",
+      //   Img: "/images/sponsor/Replit-Dark-Background.png",
+      // },
     ],
   },
 
