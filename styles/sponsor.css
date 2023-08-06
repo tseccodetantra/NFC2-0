@@ -8,7 +8,9 @@
   /* margin: 3rem 0; */
   position: relative;
 }
-
+.imgae{
+  height: 10rem;
+}
 .aconst7 {
   position: absolute;
   display: none;
