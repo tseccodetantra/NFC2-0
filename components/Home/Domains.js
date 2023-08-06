@@ -2,7 +2,7 @@ import { infoConfig } from "../../config/info";
 import React from "react";
 import Image from "next/image";
 
-const About = () => {
+const Domains = () => {
   const { about } = infoConfig;
   return (
     <section
@@ -96,4 +96,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Domains;
