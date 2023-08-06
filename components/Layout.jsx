@@ -20,20 +20,20 @@ const Layout = ({ children }) => {
 
         <link
           rel="canonical"
-          href="https://www.hackthespace.co/"
+          href="https://tseccodetantra.com/"
           key="canonical"
         />
 
         <title>Need for Code 2.0</title>
         <meta
           name="description"
-          content="A 24-hour immersive hackathon for all the nerds out there✨. Empowering young minds😇. Turn Ideas into Impact!🚀"
+          content="A 24-hour immersive hackathon for all the nerds out there✨. Empowering young minds. Turn Ideas into Impact!"
         />
-        <meta
+        {/* <meta
           name="image"
           content="https://res.cloudinary.com/dmwxnrn8o/image/upload/b_rgb:000000/v1686922356/hackthespace/logo-main_lrdsjp.webp"
-        />
-        <meta name="author" content="Hack The Space" />
+        /> */}
+        {/* <meta name="author" content="Hack The Space" /> */}
 
         <meta property="og:title" name="og:title" content="Hack The Space" />
         <meta
@@ -41,19 +41,19 @@ const Layout = ({ children }) => {
           name="og:description"
           content="A 24-hour immersive hackathon for all the nerds out there✨. Empowering young minds😇. Turn Ideas into Impact!🚀"
         />
-        <meta
+        {/* <meta
           property="og:image"
           name="og:image"
           content="https://res.cloudinary.com/dmwxnrn8o/image/upload/b_rgb:000000/v1686922356/hackthespace/logo-main_lrdsjp.webp"
-        />
+        /> */}
 
-        <meta property="og:type" name="og:type" content="website" />
+        {/* <meta property="og:type" name="og:type" content="website" />
         <meta
           property="og:url"
           name="og:url"
           content="https://www.hackthespace.co/"
-        />
-
+        /> */}
+{/* 
         <meta name="twitter:title" content="Hack The Space" />
         <meta
           name="twitter:description"
@@ -69,7 +69,7 @@ const Layout = ({ children }) => {
           name="twitter:image:src"
           content="https://res.cloudinary.com/dmwxnrn8o/image/upload/b_rgb:000000/v1686922356/hackthespace/logo-main_lrdsjp.webp"
         />
-        <meta name="twitter:card" content="Hack The Space" />
+        <meta name="twitter:card" content="Hack The Space" /> */}
       </Head>
 
       <Navbar />
