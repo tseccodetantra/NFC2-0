@@ -34,7 +34,7 @@ const Wihts = () => {
 
           <div className="frm">
             <img
-              src="/images/images/R2_D2.png"
+              src="./images/images/R2_D2.png"
               alt="Hack the space Hackathon planet"
             />
           </div>
@@ -49,7 +49,7 @@ const Wihts = () => {
       </div>
       <div className="aconst1">
         <Image
-          src="/images/aconst5.svg"
+          src="./images/aconst5.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}
@@ -58,7 +58,7 @@ const Wihts = () => {
       </div>
       <div className="pattern2">
         <Image
-          src="/images/pattern6.svg"
+          src="./images/pattern6.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}
