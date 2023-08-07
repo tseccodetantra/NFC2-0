@@ -6,7 +6,7 @@ const Domains = () => {
   const { about } = infoConfig;
   return (
     <section
-      id="about"
+      id="domains"
       className="section about-section wow animate__animated animate__fadeInUp"
       data-wow-duration="1s"
     >
