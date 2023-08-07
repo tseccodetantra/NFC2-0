@@ -22,6 +22,7 @@ const index = () => {
   }, []);
 
   return (
+    <div >
     <Layout>
       {/* Animation */}
       <Preloader />
@@ -33,11 +34,12 @@ const index = () => {
       <Venue />
       <Schedule />
       {/* <Tracks /> */}
-      <Sponsor />
-      {/* <WhySponsor />
-      <Organiser /> */}
-      <FAQS />
+      {/* <Sponsor /> */}
+      {/* <WhySponsor /> */}
+      {/* <Organiser /> */}
+      {/* <FAQS /> */}
     </Layout>
+      </div>
   );
 };
 
