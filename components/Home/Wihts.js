@@ -49,7 +49,8 @@ const Wihts = () => {
       </div>
       <div className="aconst1">
         <Image
-          src="./images/aconst5.svg"
+          src="/images/aconst5.svg"
+          // src="./images/aconst5.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}
