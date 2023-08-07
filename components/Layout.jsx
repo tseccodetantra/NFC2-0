@@ -74,7 +74,7 @@ const Layout = ({ children }) => {
 
       <Navbar />
       <ThreeScene />
-      <BackToTop />
+      {/* <BackToTop /> */}
       <main>{children}</main>
 
       <Footer />
