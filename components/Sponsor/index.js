@@ -63,7 +63,7 @@ const Sponsor = () => {
             />
           ))}
         </SponsorContainer>
-        <SponsorContainer
+        {/* <SponsorContainer
           Name={inkind.Name}
           Img={inkind.Img}
           Type={inkind.Type}
@@ -104,7 +104,7 @@ const Sponsor = () => {
               Img={partner.Img}
             />
           ))}
-        </SponsorContainer>
+        </SponsorContainer> */}
       </div>
     </SectionLayout>
   );

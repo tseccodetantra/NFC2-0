@@ -1,13 +1,14 @@
 import Image from "next/image";
+import Card from "../Card";
 import SectionLayout from "../SectionLayout";
 
 const Journey = () => {
   return (
     <SectionLayout
-      Title={"JOURNEY OF NFC"}
+      Title={"JOURNEY OF Need For Code"}
       Classname={"venue-section-container built-section"}
     >
-      <div className="super-outer-circle">
+      {/* <div className="super-outer-circle">
         <div className="text text-1">
           <h2>20+</h2>
           <p>Successful Events</p>
@@ -86,6 +87,16 @@ const Journey = () => {
           width={300}
           height={300}
         />
+      </div> */}
+      <div
+        id="journey"
+        style={{ display: "flex", justifyContent: "space-around" }}
+      >
+        <Card
+          heading={"Total Registrations"}
+          content={"150+ teams registered"}
+        />
+        <Card heading={"Total Teams"} content={"45+ teams registered"} />
       </div>
     </SectionLayout>
   );

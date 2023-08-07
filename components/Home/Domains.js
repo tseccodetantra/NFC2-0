@@ -2,7 +2,7 @@ import { infoConfig } from "../../config/info";
 import React from "react";
 import Image from "next/image";
 
-const About = () => {
+const Domains = () => {
   const { about } = infoConfig;
   return (
     <section
@@ -11,14 +11,42 @@ const About = () => {
       data-wow-duration="1s"
     >
       <div className="abbox">
-        <h2 className="section-title">ABOUT US</h2>
+        <h2 className="section-title">DOMAINS</h2>
         <div className="paraDiv">
-          {about.map((d) => (
-            <React.Fragment key={d.id}>
-              <p>{d.data}</p>
-              <br />
-            </React.Fragment>
-          ))}
+          <div className="domains">
+            <div className="domain">
+              <div className="domain-div" id="ai">
+                <img src="/images/domains/ai.png" width={150} height={150} />
+                <p>AI / ML</p>
+              </div>
+              <div className="domain-div">
+                <img
+                  src="/images/domains/blockchain.png"
+                  width={150}
+                  height={150}
+                />
+                <p>Blockchain</p>
+              </div>
+            </div>
+            <div className="domain">
+              <div className="domain-div">
+                <img
+                  src="/images/domains/social.png"
+                  width={150}
+                  height={150}
+                />
+                <p>Social Cause</p>
+              </div>
+              <div className="domain-div">
+                <img
+                  src="/images/domains/webdev.png"
+                  width={150}
+                  height={150}
+                />
+                <p>Web/App Development</p>
+              </div>
+            </div>
+          </div>
           <div className="rstar">
             <img
               className="topstar"
@@ -35,9 +63,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="aconst1">
+      {/* <div className="aconst1">
         <Image
-          src="/images/aconst1.webp"
+          src="/images/images/star.png"
           alt="hack the space const"
           className="opaque8"
           width={300}
@@ -47,13 +75,13 @@ const About = () => {
 
       <div className="aconst3">
         <Image
-          src="/images/aconst3.svg"
+          src="/images/images/darth.png"
           alt="hack the space const"
           className="opaque8"
           width={300}
           height={300}
         />
-      </div>
+      </div> */}
 
       <div className="pattern7">
         <Image
@@ -68,4 +96,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Domains;

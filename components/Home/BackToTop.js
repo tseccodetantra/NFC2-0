@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Lottie from "react-lottie-player";
+import rocket from "../../public/images/rocket.jpg";
 
 import fire from "../../utils/Rocket/fire.json";
 import smoke from "../../utils/Rocket/smoke.json";
@@ -46,6 +47,7 @@ const BackToTop = () => {
           style={{ height: "100px", width: "100px", rotate: "46deg" }}
           speed={1}
         />
+        {/* <img src={rocket} /> */}
       </button>
     </div>
   );

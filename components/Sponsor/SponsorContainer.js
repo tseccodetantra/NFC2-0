@@ -6,6 +6,7 @@ const SponsorContainer = ({ Name, Img, Type, children, wid }) => {
       <div className="Sponsor-name-container">
         <hr className={`left-hr ${wid}`} />
         <Image
+          className="imgae"
           src={Img}
           alt={Name}
           style={
