@@ -16,12 +16,12 @@ const Domains = () => {
           <div className="domains">
             <div className="domain">
               <div className="domain-div" id="ai">
-                <img src="/images/domains/ai.png" width={150} height={150} />
+                <img src="./images/domains/ai.png" width={150} height={150} />
                 <p>AI / ML</p>
               </div>
               <div className="domain-div">
                 <img
-                  src="/images/domains/blockchain.png"
+                  src="./images/domains/blockchain.png"
                   width={150}
                   height={150}
                 />
@@ -31,7 +31,7 @@ const Domains = () => {
             <div className="domain">
               <div className="domain-div">
                 <img
-                  src="/images/domains/social.png"
+                  src="./images/domains/social.png"
                   width={150}
                   height={150}
                 />
@@ -39,7 +39,7 @@ const Domains = () => {
               </div>
               <div className="domain-div">
                 <img
-                  src="/images/domains/webdev.png"
+                  src="./images/domains/webdev.png"
                   width={150}
                   height={150}
                 />
@@ -50,14 +50,14 @@ const Domains = () => {
           <div className="rstar">
             <img
               className="topstar"
-              src="/images/images/darth.png"
+              src="./images/images/darth.png"
               alt="Hack the space Hackathon Star"
             />
           </div>
           <div className="frm about-frm">
             <img
               className="botstar"
-              src="/images/images/star.png"
+              src="./images/images/star.png"
               alt="Hack the space Hackathon Planet"
             />
           </div>
@@ -84,8 +84,8 @@ const Domains = () => {
       </div> */}
 
       <div className="pattern7">
-        <Image
-          src="/images\Constillations\Moon.svg"
+        <img
+          src="./images\Constillations\Moon.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}

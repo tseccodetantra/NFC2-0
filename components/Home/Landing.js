@@ -40,7 +40,7 @@ const Landing = () => {
       style={{ minHeight: "100vh", color: "#fff" }}
     >
       <div className="cost1">
-        <img src="/images/home/constellation1.png" alt="NFC2" />
+        <img src="./images/home/constellation1.png" alt="NFC2" />
       </div>
       <div className="logo-div">
         <div className="logo-home">
@@ -70,7 +70,7 @@ const Landing = () => {
           <button type="button" className="Btn zinc-bg">
             <a href="https://need-for-code.devfolio.co/" target="_blank">
               <div className="gradient-mask blue-bg">
-                {/* <img src="images/sponsor/Square.png" alt="Dev logo" style={{height:50}} /> */}
+                {/* <img src=".images/sponsor/Square.png" alt="Dev logo" style={{height:50}} /> */}
               </div>
               {/* <svg
                 name="logo-discord"
@@ -110,11 +110,11 @@ const Landing = () => {
       </div>
       <div className="cost2">
         <img
-          src="/images/home/constellation2.png"
+          src="./images/home/constellation2.png"
           alt="Hack the space Hackathon Constellation"
         />
       </div>
-      <Script src="https://apply.devfolio.co/v2/sdk.js" async defer />
+      <Script src=".https://apply.devfolio.co/v2/sdk.js" async defer />
     </section>
   );
 };

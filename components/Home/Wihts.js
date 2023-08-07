@@ -48,7 +48,7 @@ const Wihts = () => {
         </div>
       </div>
       <div className="aconst1">
-        <Image
+        <img
           src="./images/aconst5.svg"
           alt="hack the space const"
           className="opaque8"
@@ -57,7 +57,7 @@ const Wihts = () => {
         />
       </div>
       <div className="pattern2">
-        <Image
+        <img
           src="./images/pattern6.svg"
           alt="hack the space const"
           className="opaque8"
