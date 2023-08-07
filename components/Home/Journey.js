@@ -5,7 +5,7 @@ import SectionLayout from "../SectionLayout";
 const Journey = () => {
   return (
     <SectionLayout
-      Title={"JOURNEY OF Need For Code"}
+      Title={"JOURNEY OF NEED FOR CODE"}
       Classname={"venue-section-container built-section"}
     >
       {/* <div className="super-outer-circle">
@@ -96,7 +96,7 @@ const Journey = () => {
           heading={"Total Registrations"}
           content={"150+ teams registered"}
         />
-        <Card heading={"Total Teams"} content={"45+ teams registered"} />
+        <Card heading={"Total Teams"} content={"45+ teams participated"} />
       </div>
     </SectionLayout>
   );
