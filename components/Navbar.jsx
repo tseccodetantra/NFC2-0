@@ -61,8 +61,8 @@ const Navbar = () => {
         >
           <div className="logo shrink">
             <Link href="#home">
-              <Image
-                src="/images/navbar/CT Logo.png"
+              <img
+                src="./images/navbar/CT Logo.png"
                 alt="hack the space"
                 width={100}
                 height={100}
@@ -111,8 +111,8 @@ const Navbar = () => {
               style={{ display: "none" }}
               name="menu-outline"
             >
-              <Image
-                src="/images/navbar/mlh_flag.png"
+              <img
+                src="./images/navbar/mlh_flag.png"
                 alt="mlh hack the space"
                 width={100}
                 height={100}
@@ -125,7 +125,7 @@ const Navbar = () => {
       <div className="desktop-nav">
         <div className="logo shrink">
           <Link href="#home" onClick={handleScroll}>
-            <img src="/images/navbar/nav_logo.png" alt="hack the space" />
+            <img src="./images/navbar/nav_logo.png" alt="hack the space" />
           </Link>
         </div>
         <div className="links">
@@ -151,7 +151,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="mlh-flag" style={{ opacity: "0" }}>
-          <img src="/images/navbar/mlh_flag.png" alt="mlh hack the space" />
+          <img src="./images/navbar/mlh_flag.png" alt="mlh hack the space" />
         </div>
       </div>
     </nav>
