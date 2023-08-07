@@ -34,10 +34,10 @@ const index = () => {
       <Venue />
       <Schedule />
       {/* <Tracks /> */}
-      {/* <Sponsor /> */}
+      <Sponsor />
       {/* <WhySponsor /> */}
       {/* <Organiser /> */}
-      {/* <FAQS /> */}
+      <FAQS />
     </Layout>
       </div>
   );
