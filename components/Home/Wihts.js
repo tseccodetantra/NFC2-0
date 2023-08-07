@@ -38,12 +38,13 @@ const Wihts = () => {
               alt="Hack the space Hackathon planet"
             />
           </div>
-          <div className="asrt">
+          {/* <div className="asrt">
             <img
               src="/images/images/yoda.png"
               alt="Hack the space Hackathon planet"
+              // style={{height:"200px"}}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="aconst1">

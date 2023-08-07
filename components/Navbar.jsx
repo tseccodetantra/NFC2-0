@@ -40,9 +40,9 @@ const Navbar = () => {
           <Link href="#sponsors" onClick={handleScroll}>
             Sponsors
           </Link>
-          <Link href="#organiser" onClick={handleScroll}>
+          {/* <Link href="#organiser" onClick={handleScroll}>
             Team
-          </Link>
+          </Link> */}
           <Link href="#faqs" onClick={handleScroll}>
             FAQs
           </Link>

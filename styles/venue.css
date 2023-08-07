@@ -31,7 +31,7 @@
   font-size: 1.8rem;
   line-height: 2.3rem;
   text-align: center;
-  color: var(--primary-blue);
+  color: var(--primary-yellow);
 }
 
 .venue-section p {
@@ -48,7 +48,7 @@
 .venue-section .divider {
   height: 5px;
   margin: 2rem 0;
-  background-color: var(--secondary-blue);
+  background-color: #FFFF00; /* Yellow */
 }
 
 .venue-section .map-wrapper {
@@ -84,7 +84,7 @@
     font-size: 1.5rem;
     line-height: 1.9rem;
     letter-spacing: 0.08em;
-    color: var(--primary-blue);
+    color: yellow;
   }
 
   .venue-section p {

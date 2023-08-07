@@ -108,7 +108,7 @@
   animation: floaty 3s linear infinite;
 }
 .asrt img {
-  width: 75%;
+  width: 20%;
 }
 @media only screen and (max-width: 768px) {
   .frm {
