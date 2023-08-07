@@ -62,7 +62,7 @@ const Navbar = () => {
           <div className="logo shrink">
             <Link href="#home">
               <Image
-                src="/images/navbar/nav_logo.png"
+                src="/images/navbar/CT Logo.png"
                 alt="hack the space"
                 width={100}
                 height={100}
