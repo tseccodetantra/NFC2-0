@@ -44,8 +44,8 @@ const Landing = () => {
       </div>
       <div className="logo-div">
         <div className="logo-home">
-          <Image
-            src="/images/nfc_logo.png"
+          <img
+            src="./images/nfc_logo.png"
             alt="Need For Code 2.0 Hackathon Constellation"
             priority={true}
             sizes="100%"
