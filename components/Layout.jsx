@@ -13,8 +13,8 @@ const Layout = ({ children }) => {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="mask-icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="mask-icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" /> */}
         <meta name="robots" content="all" />
         <meta name="googlebot" content="all" />
 
@@ -35,12 +35,12 @@ const Layout = ({ children }) => {
         /> */}
         {/* <meta name="author" content="Hack The Space" /> */}
 
-        <meta property="og:title" name="og:title" content="Hack The Space" />
+        {/* <meta property="og:title" name="og:title" content="Hack The Space" />
         <meta
           property="og:description"
           name="og:description"
           content="A 24-hour immersive hackathon for all the nerds out there✨. Empowering young minds😇. Turn Ideas into Impact!🚀"
-        />
+        /> */}
         {/* <meta
           property="og:image"
           name="og:image"
@@ -78,7 +78,7 @@ const Layout = ({ children }) => {
 
       <Navbar />
       <ThreeScene />
-      <BackToTop />
+      {/* <BackToTop /> */}
       <main>{children}</main>
 
       <Footer />

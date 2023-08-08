@@ -9,10 +9,7 @@ import Journey from "../components/Home/Journey";
 import Preloader from "../components/Home/Preloader";
 import Venue from "../components/Home/Venue";
 import Sponsor from "../components/Sponsor";
-import WhySponsor from "../components/Home/WhySponsor";
-import Organiser from "../components/Home/Organiser";
 import "animate.css";
-import Tracks from "../components/Home/Tracks";
 
 const index = () => {
   useEffect(() => {
@@ -22,6 +19,7 @@ const index = () => {
   }, []);
 
   return (
+    <div >
     <Layout>
       {/* Animation */}
       <Preloader />
@@ -34,10 +32,11 @@ const index = () => {
       <Schedule />
       {/* <Tracks /> */}
       <Sponsor />
-      {/* <WhySponsor />
-      <Organiser /> */}
+      {/* <WhySponsor /> */}
+      {/* <Organiser /> */}
       <FAQS />
     </Layout>
+      </div>
   );
 };
 

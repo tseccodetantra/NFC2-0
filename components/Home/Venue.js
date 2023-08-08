@@ -44,8 +44,8 @@ const Venue = () => {
         </div>
       </div>
       <div className="aconst6">
-        <Image
-          src="/images/aconst6.svg"
+        <img
+          src="./images/aconst6.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}

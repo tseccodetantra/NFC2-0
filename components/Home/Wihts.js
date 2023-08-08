@@ -34,21 +34,22 @@ const Wihts = () => {
 
           <div className="frm">
             <img
-              src="/images/images/R2_D2.png"
+              src="./images/images/R2_D2.png"
               alt="Hack the space Hackathon planet"
             />
           </div>
-          <div className="asrt">
+          {/* <div className="asrt">
             <img
               src="/images/images/yoda.png"
               alt="Hack the space Hackathon planet"
+              // style={{height:"200px"}}
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="aconst1">
-        <Image
-          src="/images/aconst5.svg"
+        <img
+          src="./images/aconst5.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}
@@ -56,8 +57,8 @@ const Wihts = () => {
         />
       </div>
       <div className="pattern2">
-        <Image
-          src="/images/pattern6.svg"
+        <img
+          src="./images/pattern6.svg"
           alt="hack the space const"
           className="opaque8"
           width={300}

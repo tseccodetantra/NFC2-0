@@ -149,7 +149,7 @@ background: linear-gradient(180deg, #FFDE06 47.2%, #FFDE06 90.1%);
   /* background: var(--primary-blue); */
   background: linear-gradient(
     rgba(255, 255, 255, 0) 0%,
-    rgb(167 139 250) 35%,
+    rgb(255, 253, 109) 35%,
 
     rgba(255, 255, 255, 0) 100%
   );

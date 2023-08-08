@@ -7,7 +7,7 @@ const SponsorWrapper = ({ Img, Name }) => {
   return (
     <div className="card">
       <div className="pic">
-        <Image
+        <img
           src={Img}
           alt={`${Name.toUpperCase()} LOGO`}
           width={100}
