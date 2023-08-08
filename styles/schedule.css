@@ -37,7 +37,8 @@
   text-align: center;
   border-width: 4px;
   border-style: solid;
-  border-image: linear-gradient(to right, #b741dd 47.2%, #7d00f2 90.1%) 1;
+  /* border-image: linear-gradient(to right, #b741dd 47.2%, #7d00f2 90.1%) 1; */
+  border-image: #FFDE06;
   padding: 2rem;
   width: 40rem;
   height: 500px;

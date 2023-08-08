@@ -67,12 +67,16 @@ const Landing = () => {
 
         <div className="butHolder">
           {/* Devfolio Button */}
-          <button type="button" className="Btn zinc-bg">
+          {/* <button type="button" className="Btn zinc-bg">
             <a href="https://need-for-code.devfolio.co/" target="_blank">
               <div className="gradient-mask blue-bg">
-                {/* <img src="images/sponsor/Square.png" alt="Dev logo" style={{height:50}} /> */}
+                <img
+                  src="images/sponsor/Devfolio.png"
+                  alt="Dev logo"
+                  style={{ height: 50 }}
+                />
               </div>
-              {/* <svg
+              <svg
                 name="logo-discord"
                 xmlns="http://www.w3.org/2000/svg"
                 className="ionicon icon"
@@ -80,10 +84,34 @@ const Landing = () => {
               >
                 <path d="M464 66.52A50 50 0 00414.12 17L97.64 16A49.65 49.65 0 0048 65.52V392c0 27.3 22.28 48 49.64 48H368l-13-44 109 100zM324.65 329.81s-8.72-10.39-16-19.32C340.39 301.55 352.5 282 352.5 282a139 139 0 01-27.85 14.25 173.31 173.31 0 01-35.11 10.39 170.05 170.05 0 01-62.72-.24 184.45 184.45 0 01-35.59-10.4 141.46 141.46 0 01-17.68-8.21c-.73-.48-1.45-.72-2.18-1.21-.49-.24-.73-.48-1-.48-4.36-2.42-6.78-4.11-6.78-4.11s11.62 19.09 42.38 28.26c-7.27 9.18-16.23 19.81-16.23 19.81-53.51-1.69-73.85-36.47-73.85-36.47 0-77.06 34.87-139.62 34.87-139.62 34.87-25.85 67.8-25.12 67.8-25.12l2.42 2.9c-43.59 12.32-63.44 31.4-63.44 31.4s5.32-2.9 14.28-6.77c25.91-11.35 46.5-14.25 55-15.21a24 24 0 014.12-.49 205.62 205.62 0 0148.91-.48 201.62 201.62 0 0172.89 22.95s-19.13-18.15-60.3-30.45l3.39-3.86s33.17-.73 67.81 25.16c0 0 34.87 62.56 34.87 139.62 0-.28-20.35 34.5-73.86 36.19z" />
                 <path d="M212.05 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.8 0 24.7-11.83 24.7-26.57.25-14.76-10.9-26.57-24.7-26.57zM300.43 218c-13.8 0-24.7 11.84-24.7 26.57s11.14 26.57 24.7 26.57c13.81 0 24.7-11.83 24.7-26.57S314 218 300.43 218z" />
-              </svg> */}
+              </svg>
 
-              <span className="text" style={{color:"white", fontSize:16}}>Apply with Devfolio</span>
+              <span className="text" style={{ color: "white", fontSize: 16 }}>
+                Apply with Devfolio
+              </span>
             </a>
+          </button> */}
+
+          <button id="apply-button" className="light" type="button" disabled="" style={{width:"25px",height:"20px"}}>
+            <svg
+              className="logo"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 115.46 123.46"
+              fill="#fff"
+            >
+              <path
+                d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 
+            12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 
+            13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 
+            2.18.08 3.34z"
+              ></path>
+              <path
+                d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 
+            104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 
+            55.41 0 0 1 50.58 55.34z"
+              ></path>
+            </svg>
+            <span id="apply-button-title">Apply with Devfolio</span>
           </button>
 
           {/* Discord Button */}

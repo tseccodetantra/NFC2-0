@@ -49,8 +49,8 @@ nav .desktop-nav .links a {
 
 nav .desktop-nav .links a:hover {
   color: var(--primary-blue);
-  text-shadow: -0.25px -0.25px 0 var(--primary-blue),
-    0.25px 0.25px var(--primary-blue);
+  text-shadow: -0.25px -0.25px 0 var(#FFDE06),
+    0.25px 0.25px var(#FFDE06);
 }
 
 nav .desktop-nav .links a::after {
@@ -155,9 +155,9 @@ nav .mobile-nav {
   }
 
   nav .mobile-nav-links a:hover {
-    color: var(--primary-blue);
-    text-shadow: -0.25px -0.25px 0 var(--primary-blue),
-      0.25px 0.25px var(--primary-blue);
+    color: var(#FFDE06);
+    text-shadow: -0.25px -0.25px 0 var(#FFDE06),
+      0.25px 0.25px var(#FFDE06);
   }
 
   nav .mobile-nav-links a::after {

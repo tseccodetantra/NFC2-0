@@ -61,15 +61,19 @@ const Layout = ({ children }) => {
         />
         <meta name="twitter:site" content="https://hackthespace.co" />
         <meta name="twitter:domain" content="https://hackthespace.co" />
-        <meta
-          name="twitter:image"
-          content="https://res.cloudinary.com/dmwxnrn8o/image/upload/b_rgb:000000/v1686922356/hackthespace/logo-main_lrdsjp.webp"
-        />
+        
         <meta
           name="twitter:image:src"
           content="https://res.cloudinary.com/dmwxnrn8o/image/upload/b_rgb:000000/v1686922356/hackthespace/logo-main_lrdsjp.webp"
         />
         <meta name="twitter:card" content="Hack The Space" /> */}
+        <meta
+          property="og:image"
+          name="og:image"
+          // content="https://res.cloudinary.com/dmwxnrn8o/image/upload/b_rgb:000000/v1686922356/hackthespace/logo-main_lrdsjp.webp"
+          content = "https://ibb.co/R4Lhw3p"
+        /> 
+        
       </Head>
 
       <Navbar />
