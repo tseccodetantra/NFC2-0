@@ -37,7 +37,7 @@ const Sponsor = () => {
             />
           ))}
         </SponsorContainer>
-        <SponsorContainer
+        {/* <SponsorContainer
           Name={silver.Name}
           Img={silver.Img}
           Type={silver.Type}
@@ -49,7 +49,7 @@ const Sponsor = () => {
               Img={sponsor.Img}
             />
           ))}
-        </SponsorContainer>
+        </SponsorContainer> */}
         <SponsorContainer
           Name={bronze.Name}
           Img={bronze.Img}
