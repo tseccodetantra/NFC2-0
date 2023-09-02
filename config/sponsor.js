@@ -1,7 +1,7 @@
 export const sponsorConfig = {
   gold: {
     Name: "gold",
-    Img: "/images/sponsor/Mando Coin (2).png",
+    Img: "./images/sponsor/Mando Coin (2).png",
     Type: "Gold",
     // Sponsor: [
     //   {
