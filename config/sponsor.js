@@ -1,7 +1,7 @@
 export const sponsorConfig = {
   gold: {
     Name: "gold",
-    Img: "/images/sponsor/Mando Coin (2).png",
+    Img: "./images/sponsor/Mando Coin (2).png",
     Type: "",
     // Sponsor: [
     //   {
@@ -51,7 +51,7 @@ export const sponsorConfig = {
   bronze: {
     id: "3",
     Name: "bronze",
-    Img: "/images/sponsor/Mando Coin br.png",
+    Img: "./images/sponsor/Mando Coin br.png",
     Type: "",
     Sponsor: [
       {
