@@ -1,8 +1,8 @@
 export const sponsorConfig = {
   gold: {
     Name: "gold",
-    Img: "./images/sponsor/Mando Coin (2).png",
-    Type: "Gold",
+    Img: "/images/sponsor/Mando Coin (2).png",
+    Type: "",
     // Sponsor: [
     //   {
     //     id: "1",
@@ -51,8 +51,8 @@ export const sponsorConfig = {
   bronze: {
     id: "3",
     Name: "bronze",
-    Img: "./images/sponsor/Mando Coin br.png",
-    Type: "silver",
+    Img: "/images/sponsor/Mando Coin br.png",
+    Type: "",
     Sponsor: [
       {
         id: "1",
@@ -82,6 +82,11 @@ export const sponsorConfig = {
         id: "6",
         Name: "Bombay Curry",
         Img: "./images/sponsor/the_bombay_curry-removebg-preview.png",
+      },
+      {
+        id: "7",
+        Name: "Bombay Burgers",
+        Img: "./images/sponsor/Bombay Burger.png",
       },
     ],
   },
