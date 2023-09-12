@@ -68,7 +68,8 @@ export const sponsorConfig = {
         id: "3",
         Name: "Replit",
         Img: "./images/sponsor/Replit-Dark-Background.png",
-      },{
+      },
+      {
         id: "1",
         Name: "Filecoin",
         Img: "./images/sponsor/Filecoin Coloured White Text-1.png",
@@ -87,6 +88,11 @@ export const sponsorConfig = {
         id: "7",
         Name: "Bombay Burgers",
         Img: "./images/sponsor/Bombay Burger.png",
+      },
+      {
+        id: "8",
+        Name: "hoverRobotix",
+        Img: "./images/sponsor/hoverrobotix.png",
       },
     ],
   },
