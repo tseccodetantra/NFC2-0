@@ -94,6 +94,11 @@ export const sponsorConfig = {
         Name: "hoverRobotix",
         Img: "./images/sponsor/hoverrobotix.png",
       },
+      {
+        id: "9",
+        Name: "Internshala",
+        Img: "./images/sponsor/internshala.png",
+      },
     ],
   },
 
